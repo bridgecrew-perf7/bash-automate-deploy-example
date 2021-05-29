@@ -1,7 +1,8 @@
 # visual-studio-code configuration
 .vscode/
 
-# secret key
+# deployment
+deploy.sh
 idrsa.key
 
 # API error log
