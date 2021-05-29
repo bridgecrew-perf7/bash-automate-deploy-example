@@ -1,0 +1,1 @@
+# bash-automate-deploy-example
