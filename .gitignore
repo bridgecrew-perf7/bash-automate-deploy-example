@@ -1,6 +1,9 @@
 # visual-studio-code configuration
 .vscode/
 
+# secret key
+idrsa.key
+
 # API error log
 dump-log/
 
