@@ -1,12 +1,11 @@
 {
-    "name": "server",
+    "name": "automate-deploy",
     "version": "1.0.0",
-    "description": "Basic Templat NodeJS Express MongoDB",
-    "main": "server.js",
+    "description": "Automate deploy using bash command",
+    "main": "src/server.js",
     "author": "Hafis Alrizal",
     "license": "ISC",
     "scripts": {
-        "test": "mocha test/*.js --recursive --colors --exit --timeout 120000",
         "nodemon-dev": "set NODE_ENV=development&& nodemon src/server.js",
         "dev": "set NODE_ENV=development&& node src/server.js",
         "prod": "set NODE_ENV=production&& node src/server.js"
@@ -29,11 +28,6 @@
         "passport-local": "^1.0.0",
         "swagger-jsdoc": "^4.2.0",
         "swagger-ui-express": "^4.1.4"
-    },
-    "devDependencies": {
-        "chai": "^4.3.0",
-        "mocha": "^8.3.0",
-        "supertest": "^6.1.3"
     },
     "keywords": [
         "nodejs",
